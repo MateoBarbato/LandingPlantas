@@ -8,7 +8,7 @@ export default function Pc() {
   
   return (
     <main className="min-h-screen m-auto">
-        <div className='mx-3 self-center text-[#43523a] text-center mt-6 mb-6'>
+        <div className='mx-3 self-center text-[#43523a] text-center mt-12 mb-6'>
             <div className='text-6xl mb-4 underline '>
             <h2 className={fonts.merriweatherBold.className}>Proyecto Praderas</h2>
             </div>
