@@ -1,4 +1,4 @@
-import { Inconsolata,Merriweather_Sans} from 'next/font/google'
+import { Inconsolata,Merriweather} from 'next/font/google'
 
  
 // define your variable fonts
@@ -7,22 +7,24 @@ const inconsolata = Inconsolata({
     subsets: ['latin'],
     display: 'swap',
   })
-  const merriweather_Sans = Merriweather_Sans({
-    weight: '400',
+  const merriweather = Merriweather({
+    weight: '700',
     subsets: ['latin'],
     display: 'swap',
+    style:'italic'
   })
   const inconsolataVerde = Inconsolata({
     weight: '900',
     subsets: ['latin'],
     display: 'swap',
   })
-  const merriweather_SansBold = Merriweather_Sans({
-    weight: '800',
+  const merriweatherBold = Merriweather({
+    weight: '900',
     subsets: ['latin'],
     display: 'swap',
+    style:'italic'
   })
 // define 2 weights of a non-variable font
 
  
-export { inconsolata, merriweather_Sans,inconsolataVerde,merriweather_SansBold}
+export { inconsolata, merriweather,inconsolataVerde,merriweatherBold}
