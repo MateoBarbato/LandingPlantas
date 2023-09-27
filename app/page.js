@@ -30,7 +30,7 @@ export default function Home() {
           </a>
         </div>
         <div className='mx-3 self-center flex justify-center'>
-          <a href='' target='_blank'>
+          <a href='https://wa.me/5191161745657' target='_blank'>
             <button className="bg-white hover:bg-white text-[#43523a] font-bold py-2 px-10 rounded-full animate-pulse flex space-evenly items-center gap-2">
               <div className='w-5 h-5'>
                 <img src='./wp.png'></img>
