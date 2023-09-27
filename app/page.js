@@ -9,7 +9,7 @@ export default function Home() {
             <img src='./whatsapp.png'></img>
           </div>
           <div className=''>
-            <p class="text-xs">Hablame gatito</p>
+            <p class="text-xs">Hablame a Wp!</p>
           </div>
         </button>
       </div>
