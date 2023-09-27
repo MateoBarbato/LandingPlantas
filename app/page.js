@@ -9,8 +9,10 @@ export default function Home() {
             </div>
             <div className='text-2xl tracking-wider'>
             <h2 className={fonts.merriweather.className}>Ernestina Anchorena</h2>
-            </div>
-            
+            </div>            
+        </div>
+        <div className='mx-3 self-center text-[#43523a] text-center text-1xl underline tracking-wider'>
+          <h2 className={fonts.merriweather.className}>Contacto</h2>
         </div>
         <div className='mx-3 self-center m-2 grid grid-cols-2 gap-2 cols-span-1 mb-4'>
           <a href='https://www.instagram.com/ernestinaanchorena2/?igshid=MzRlODBiNWFlZA%3D%3D' target='_blank' className='flex justify-center'>
