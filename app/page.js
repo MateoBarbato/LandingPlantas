@@ -16,8 +16,8 @@ export default function Home() {
         </div>
         <div className='mx-3 self-center m-2 grid grid-cols-2 gap-2 cols-span-1 mb-4'>
           <a href='https://www.instagram.com/ernestinaanchorena2/?igshid=MzRlODBiNWFlZA%3D%3D' target='_blank' className='flex justify-center'>
-            <button className="bg-white hover:bg-white text-[#43523a] font-bold py-2 px-4 rounded-full animate-pulse flex space-evenly items-center gap-2 w-full">
-            <div className='w-5 h-5'>
+            <button className="bg-white hover:bg-white text-[#43523a] font-bold py-2 px-4 rounded-full animate-pulse flex space-evenly justify-center items-center gap-2 w-full">
+            <div className='w-5 flex content-center'>
               <img src='./ig.png'></img>
             </div>
             <div className='text-xs text-center tracking-tight'>
@@ -26,8 +26,8 @@ export default function Home() {
           </button>
           </a>
           <a href='https://instagram.com/cristian.mancini71?igshid=MzRlODBiNWFlZA==' target='_blank' className='flex justify-center'>
-            <button className="bg-white hover:bg-white text-[#43523a] font-bold py-2 px-4 rounded-full animate-pulse flex space-evenly items-center gap-2 w-full">
-              <div className='w-5 h-5'>
+            <button className="bg-white hover:bg-white text-[#43523a] font-bold py-2 px-4 rounded-full animate-pulse flex space-evenly justify-center items-center gap-2 w-full">
+              <div className='w-5'>
                 <img src='./ig.png'></img>
               </div>
               <div className='text-xs text-center '>
@@ -38,11 +38,11 @@ export default function Home() {
         </div>
         <div className='mx-3 self-center flex justify-center'>
           <a href='https://wa.me/5491168709540' target='_blank'>
-            <button className="bg-white hover:bg-white text-[#43523a] font-bold py-2 px-10 rounded-full animate-pulse flex space-evenly items-center gap-2">
-              <div className='w-5 h-5'>
-                <img src='./wp.png'></img>
+            <button className="bg-white hover:bg-white text-[#43523a] font-bold py-2 px-10 rounded-full animate-pulse flex justify-center space-evenly items-center gap-2">
+              <div className='w-6 flex content-center'>
+                <img className='' src='./wp.png'></img>
               </div>
-              <div className='text-xs w-full'>
+              <div className='text-s w-full text-center'>
                 <p className={fonts.inconsolata.className}>¡Hablemos!</p>
               </div>
             </button>
@@ -50,7 +50,7 @@ export default function Home() {
       </div>
 
       
-      <div className='mx-3 pb-10 my-6 flex justify-center'>
+      <div className='mx-4 pb-10 my-6 flex justify-center'>
         <img className='self-center' src='./asd.png'></img>
       </div>
     </main>
