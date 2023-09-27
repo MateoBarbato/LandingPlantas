@@ -13,7 +13,7 @@ export default function Pc() {
             <h2 className={fonts.merriweatherBold.className}>Proyecto Praderas</h2>
             </div>
             <div className='text-4xl tracking-wider'>
-            <h2 className={fonts.merriweather.className}>Ernestina Anchorena</h2>
+            <h2 className={fonts.merriweather.className}>Ernestina Anchorena - Cristian Mancini</h2>
             </div>            
         </div>
         <div className='mx-3 mb-5 self-center text-[#43523a] text-center text-3xl underline tracking-wider'>

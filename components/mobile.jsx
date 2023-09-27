@@ -13,7 +13,7 @@ export default function Mobile() {
             <h2 className={fonts.merriweatherBold.className}>Proyecto Praderas</h2>
             </div>
             <div className='text-2xl tracking-wider'>
-            <h2 className={fonts.merriweather.className}>Ernestina Anchorena</h2>
+            <h2 className={fonts.merriweather.className}>Ernestina Anchorena - Cristian Mancini</h2>
             </div>            
         </div>
         <div className='mx-3 self-center text-[#43523a] text-center text-1xl underline tracking-wider'>
